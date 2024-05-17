@@ -1,0 +1,32 @@
+:root {
+  /* ========== FONT ========== */
+  font-family: "Inter", sans-serif;
+
+  /* ========== CONFIG DEFAULT CSS ========== */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* ========== COLOR VARIABLES ========== */
+  --dark-blue-title-font: #263238;
+  --primary: #007FFF;
+  --white: #FFFFFF;
+  --border-input: #CCCCCC;
+  --light-gray: #94A0A6;
+
+  /* ========== WEIGHT VARIABLES ========== */
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+  --black: 900;
+}
+
+* {
+  /* ========== RESETTING PROPERTIES ========== */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

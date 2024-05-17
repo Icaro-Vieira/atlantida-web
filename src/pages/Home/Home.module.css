@@ -1,0 +1,33 @@
+nav {
+  padding-block: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link_box a {
+  font-size: 0.9375rem;
+  text-decoration: none;
+  font-weight: var(--bold);
+  color: var(--light-gray);
+  margin-right: 100px;
+  transition: .2s;
+}
+
+.link_box a:hover {
+  color: var(--dark-blue-title-font);
+  transition: .2s;
+}
+
+.btn_login {
+  text-decoration: none;
+  font-weight: var(--semi-bold);
+  color: var(--white);
+  padding: 15px 15px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  width: 10.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

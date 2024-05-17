@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel {
+  height: 100%;
+  width: 55%;
+}
+
+.login {
+  width: 45%;
+  padding-inline: 10%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.slides {
+  /* Ajuste a largura conforme necessário */
+  height: 100%;
+  /* Altura automática */
+}
+
+.img_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 100%;
+  height: 100%;
+}
+
+.img_txt p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  z-index: 10;
+  color: var(--white);
+  margin-top: -110px;
+  text-align: center;
+}

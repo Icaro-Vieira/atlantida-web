@@ -1,0 +1,97 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.back-button {
+  color: #007fff;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #263238;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.step.active {
+  background-color: #007fff;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #263238;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.submit-button {
+  background-color: #007fff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
